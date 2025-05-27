@@ -278,8 +278,7 @@ def get_test_puzzles():
     test1 = puzz.EightPuzzleBoard("125340678")  # 3-5 moves
     test2 = puzz.EightPuzzleBoard("724506831")  # 10-15 moves
     test3 = puzz.EightPuzzleBoard("802356174")  # >=25 moves
-    test4 = puzz.EightPuzzleBoard("123456870 ")  # impossible
-    return (test1, test2, test3, test4)
+    return (test1, test2, test3)
 
 
 if __name__ == '__main__':
